@@ -10,17 +10,16 @@ Let's get started with Xcode.
 
 ## What is Xcode?
 
-There are iPhones, Macs, Apple Watches & Apple TV's which represent the hardware offered by Apple. Powering these various devices is software. There are different pieces of software deployed on each device, names you might already be familiar with.
+Apple creates a lot of hardwarde suc as the iPhone, Mac, Apple Watch & Apple TV. Powering these various devices is software. There are different pieces of software deployed on each device, names you might already be familiar with.
 
-* iOS, MacOS, tvOS, watchOS
+* iPhone- iOS
+* Mac- MacOS
+* Apple Watch- watchOS
+* Apple TV- tvOS
 
-Being a developer, you will want to create various applications for these various operating systems (everyone has an app idea). 
+But where do we create this software? For example. we can use a Word document to create essays, stories or other text based documents. For iOS development, Xcode serves as our Word document. It's a place where we write code.
 
-There needs to be a place where we can create this software. We use a Word document to create essays, stories or... I'm not really sure, I don't use Word documents anymore but you get the point.
-
-Xcode serves as our Word document. It's a place where we write code.
-
-The programming languages we can utilize within Xcode are Swift & Objective-C. When this code is written, we can then *run* the application. When doing so, Xcode is able to take the code we wrote and read it. It does more than read the code, it's able to compile it and allow any of the above devices to run it!
+The programming languages we can utilize within Xcode are Swift & Objective-C. When this code is written, we can then *run* the application. When doing so, Xcode is able to take the code we wrote and read it. It does more than read the code; it's able to compile it and allow any of the above devices to run it!
 
 This process described above is known as an Integrated Development Environment, or IDE. Xcode then is the IDE provided by Apple that allows us to create apps.
 
