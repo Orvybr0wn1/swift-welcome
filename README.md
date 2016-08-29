@@ -10,14 +10,14 @@ Let's get started with Xcode.
 
 ## What is Xcode?
 
-Apple creates a lot of hardwarde suc as the iPhone, Mac, Apple Watch & Apple TV. Powering these various devices is software. There are different pieces of software deployed on each device, names you might already be familiar with.
+Apple creates a lot of hardwarde such as the iPhone, Mac, Apple Watch & Apple TV. Powering these various devices is software. There are different pieces of software deployed on each device, names you might already be familiar with.
 
 * iPhone- iOS
 * Mac- MacOS
 * Apple Watch- watchOS
 * Apple TV- tvOS
 
-But where do we create this software? For example. we can use a Word document to create essays, stories or other text based documents. For iOS development, Xcode serves as our Word document. It's a place where we write code.
+But where do we create this software? For example, we can use a Word document to create essays, stories or other text based documents. For iOS development, Xcode serves as our Word document. It's a place where we write code.
 
 The programming languages we can utilize within Xcode are Swift & Objective-C. When this code is written, we can then *run* the application. When doing so, Xcode is able to take the code we wrote and read it. It does more than read the code; it's able to compile it and allow any of the above devices to run it!
 
@@ -54,3 +54,5 @@ In the next lesson, we'll get you set up on Github and walk you through the work
 
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-welcome'>Swift Welcome</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-welcome'>Welcome</a> on Learn.co and start learning to code for free.</p>
