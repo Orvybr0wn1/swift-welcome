@@ -21,7 +21,7 @@ But where do we create this software? For example, we can use a Word document to
 
 The programming languages we can utilize within Xcode are Swift & Objective-C. When this code is written, we can then *run* the application. When doing so, Xcode is able to take the code we wrote and read it. It does more than read the code; it's able to compile it and allow any of the above devices to run it!
 
-This process described above is known as an Integrated Development Environment, or IDE. Xcode then is the IDE provided by Apple that allows us to create apps.
+This process occurs in software called an Integrated Development Environment, or IDE. Xcode is the IDE provided by Apple that allows us to create apps.
 
 ## Installing Xcode
 
