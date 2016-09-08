@@ -53,6 +53,4 @@ Download Xcode [here](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). 
 Your system may ask for permission to install the packages; click OK. In the next lesson, we'll get you set up on Github and walk you through the workflow of solving coding labs through Github and Xcode. 
 
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/swift-welcome'>Swift Welcome</a> on Learn.co and start learning to code for free.</p>
-
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-welcome'>Welcome</a> on Learn.co and start learning to code for free.</p>
