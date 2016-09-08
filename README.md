@@ -25,7 +25,7 @@ This process described above is known as an Integrated Development Environment, 
 
 ## Installing Xcode
 
-Download Xcode [here](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). You're required to download Xcode from the Mac App Store. So, after clicking the "View In mac App Store" link (see screenshot below) you should be directed to the Mac App Store where you can download the application.
+Download Xcode [here](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). You're required to download Xcode from the Mac App Store. So, after clicking the "View In Mac App Store" link (see screenshot below) you should be directed to the Mac App Store where you can download the application.
 
 ![Xcode Link](http://i.imgur.com/GJitSSJ.png)
 
