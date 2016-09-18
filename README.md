@@ -44,7 +44,7 @@ Here is what my version of Terminal looks like when it's open.
 
 ![termm](https://s3.amazonaws.com/learn-verified/XcodeTerminal1.png)
 
-In order to setup your terminal to look and act like mine (which is important, it will make your life much easier during this course), copy and paste this command into your terminal:
+In order to setup your terminal to look and act like mine (which is important, it will make your life much easier during this course), copy and paste this command into your terminal. (WARNING: This will override any custom bash profile you currently have!)
 
 `curl https://raw.githubusercontent.com/flatiron-school/dotfiles/master/.bash_profile -o ~/.bash_profile`
 
