@@ -82,7 +82,7 @@ Now we want to setup an SSH Key.The way our lessons are designed, we need for yo
 2. Generate an SSH Key by following the instructions [here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 3. Now you need to connect your generated SSH Key to your Github Account. Instructions to do that can be found [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
 4. Test that your SSH key is setup correctly by following the instructions [here](https://help.github.com/articles/testing-your-ssh-connection/).
-5. Make sure that when typing `git` in terminal, that it displays commands for you that you would be able to utilize. If not, it prompt you that `git` is not installed. You can find instructions for installing `git` [here](https://help.github.com/articles/set-up-git/).
+5. Make sure that when typing `git` in terminal, that it displays commands for you that you would be able to utilize. If not, it might prompt you that `git` is not installed. You can find instructions for installing `git` [here](https://help.github.com/articles/set-up-git/).
 
 After you've gone through the above three steps of setting up your SSH Key, you should head back to terminal to copy/paste the following command:
 
