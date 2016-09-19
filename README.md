@@ -1,6 +1,6 @@
 # Welcome!
 
-We're excited to have you learn Swift and iOS development with us. There's a lot to cover in this course and the first couple of lessons in this track will revolve around getting you set up with the appropriate tools and platforms. Be prepared to spend some time on setup, but we promise it will be worth it because these will be the same tools and workflows that you will be using when you're building apps. So what can you expect in this and the subsequent lesson? 
+We're excited to have you learn Swift and iOS development with us. There's a lot to cover in this course and the first couple of lessons in this track will revolve around getting you set up with the appropriate tools and platforms. Be prepared to spend some time on setup, but we promise it will be worth it because these will be the same tools and workflows that you will be use when you build apps. So what can you expect to learn in this and the following lesson? 
 
 - **Xcode**
 - **GitHub**
@@ -12,31 +12,31 @@ Let's get started with Xcode.
 
 Apple creates a lot of hardware such as the iPhone, Mac, Apple Watch & Apple TV. Powering these various devices is software. There are different pieces of software deployed on each device, names you might already be familiar with.
 
-* iPhone- iOS
-* Mac- MacOS
-* Apple Watch- watchOS
-* Apple TV- tvOS
+* iPhone: iOS
+* Mac: MacOS
+* Apple Watch: watchOS
+* Apple TV: tvOS
 
-But where do we create this software? For example, we can use a Word document to create essays, stories or other text based documents. For iOS development, Xcode serves as our Word document. It's a place where we write code.
+But where do we create this software? For example, we can use Microsoft Word to create essays, stories or other text-based documents. For iOS development, Xcode serves as our Microsoft Word. It's the place where we write code.
 
 The programming languages we can utilize within Xcode are Swift & Objective-C. When this code is written, we can then *run* the application. When doing so, Xcode is able to take the code we wrote and read it. It does more than read the code; it's able to compile it and allow any of the above devices to run it!
 
-Xcode is considered an Integrated Development Environment, or IDE. Xcode is provided by Apple which allows us to create applications.
+Xcode is considered an Integrated Development Environment, or IDE. Xcode is provided by Apple, and allows us to create applications for Apple devices.
 
 # Installing Xcode (Version 8.0)
 
-Download Xcode [here](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). You're required to download Xcode from the Mac App Store. So, after clicking the "View In Mac App Store" link (see screenshot below) you should be directed to the Mac App Store where you can download the application. You need to be on  Mac in order to download Xcode. If you already have Xcode installed on your machine, make sure you go to the Mac App Store and update to the latest version which is version 8.0.
+Download Xcode [here](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). You're required to download Xcode from the Mac App Store. So, after clicking the "View In Mac App Store" link (see screenshot below) you should be directed to the Mac App Store where you can download the application. You need to be on a Mac in order to download Xcode. If you already have Xcode installed on your machine, make sure you go to the Mac App Store and update to the latest version, which is version 8.0.
 
 ![Xcode Link](https://s3.amazonaws.com/learn-verified/XcodeWeb.png)
 
 ![Mac App Store](https://s3.amazonaws.com/learn-verified/XcodeAppStore.png)
 
 
-Once Xcode is installed, open it to make sure that everything is working OK. When opening the application, you should be presented with this screen (without all of those files listed in the right pane):
+Once Xcode is installed, open it to make sure everything works correctly. When opening the application, you should be presented with this screen (without all of those files listed in the right pane):
 
 ![Xcode Open](https://s3.amazonaws.com/learn-verified/XcodeOpen.png)
 
-Locate your Terminal application on your Mac. Pressing command + spacebar will bring up a search bar where you can begin to type in Terminal which is a fast way to locate the application (or any application for that matter!).
+Locate your Terminal application on your Mac. Pressing command + spacebar will bring up a search bar where you can begin to type in the word Terminal, which is a fast way to locate the application (or any application for that matter!).
 
 ![findingTerminal](https://s3.amazonaws.com/learn-verified/XcodeTerminalSearch.png)
 
@@ -44,7 +44,7 @@ Here is what my version of Terminal looks like when it's open.
 
 ![termm](https://s3.amazonaws.com/learn-verified/XcodeTerminal1.png)
 
-In order to setup your terminal to look and act like mine (which is important, it will make your life much easier during this course), copy and paste this command into your terminal. (WARNING: This will override any custom bash profile you currently have!)
+In order to set up your terminal to look and act like mine (which is important as it will make your life much easier during this course), copy and paste this command into your terminal. (WARNING: This will override any custom bash profile you currently have!)
 
 `curl https://raw.githubusercontent.com/flatiron-school/dotfiles/master/.bash_profile -o ~/.bash_profile`
 
@@ -52,7 +52,7 @@ Like so:
 
 ![](https://s3.amazonaws.com/learn-verified/XcodeTerminal2.png)
 
-In order for these changes to take place, copy and paste this command inside terminal
+In order for these changes to take place, copy and paste this command inside terminal:
 
 `source ~/.bash_profile`
 
@@ -76,15 +76,15 @@ Make sure you can login to your GitHub account. If you don't have a GitHub accou
 
 ![](https://s3.amazonaws.com/learn-verified/XcodeGithub.png)
 
-Now we want to setup an SSH Key.The way our lessons are designed, we need for you set this up. In order to set this up through GitHub, follow these instructions:
+Now we want to set up an SSH key. The way our lessons are designed, we need for you set this up. In order to set up a key through GitHub, follow these instructions:
 
 1. Check to see if you already have an SSH key by following the instructions [here](https://help.github.com/articles/checking-for-existing-ssh-keys/).
-2. Generate an SSH Key by following the instructions [here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
-3. Now you need to connect your generated SSH Key to your Github Account. Instructions to do that can be found [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
-4. Test that your SSH key is setup correctly by following the instructions [here](https://help.github.com/articles/testing-your-ssh-connection/).
+2. Generate an SSH key by following the instructions [here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+3. Now you need to connect your generated SSH key to your Github Account. Instructions to do that can be found [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
+4. Test that your SSH key is set up correctly by following the instructions [here](https://help.github.com/articles/testing-your-ssh-connection/).
 5. Make sure that when typing `git` in terminal, that it displays commands for you that you would be able to utilize. If not, it might prompt you that `git` is not installed. You can find instructions for installing `git` [here](https://help.github.com/articles/set-up-git/).
 
-After you've gone through the above three steps of setting up your SSH Key, you should head back to terminal to copy/paste the following command:
+After you've gone through the above steps of setting up your SSH key, you should head back to terminal to copy/paste the following command:
 
 `curl -s https://raw.githubusercontent.com/flatiron-school/ios-setup/master/install.sh`
 
@@ -92,7 +92,7 @@ Like so:
 
 ![](https://s3.amazonaws.com/learn-verified/XcodeCurl.png)
 
-If all is good, you should be met with the following prompt:
+If all is well you should be met with the following prompt:
 
 ![](https://s3.amazonaws.com/learn-verified/XcodeComplete.png)
 
