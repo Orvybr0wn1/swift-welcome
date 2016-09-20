@@ -86,15 +86,13 @@ Now we want to set up an SSH key. The way our lessons are designed, we need for 
 
 After you've gone through the above steps of setting up your SSH key, you should head back to terminal to copy/paste the following command:
 
-`curl -s https://raw.githubusercontent.com/flatiron-school/ios-setup/master/install.sh`
+`bash <(curl -s https://raw.githubusercontent.com/flatiron-school/ios-setup/master/install.sh)`
 
 Like so:
 
-![](https://s3.amazonaws.com/learn-verified/XcodeCurl.png)
+![](https://s3.amazonaws.com/learn-verified/TheWinner.png)
 
-If all is well you should be met with the following prompt:
-
-![](https://s3.amazonaws.com/learn-verified/XcodeComplete.png)
+Follow any of the prompted instructions. It might ask you to type in your Github username.
 
 Keep it up! So far, so good.
 
