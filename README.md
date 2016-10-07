@@ -46,7 +46,7 @@ Here is what my version of Terminal looks like when it's open.
 
 In order to set up your terminal to look and act like mine (which is important as it will make your life much easier during this course), you'll need to run a couple of commands in your teriminal. Copy and paste the following commands into your terminal. (WARNING: This will override any custom bash profile you currently have!):
 
-- `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- /usr/bin/`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - `curl https://raw.githubusercontent.com/flatiron-school/dotfiles/master/.bash_profile -o ~/.bash_profile`
 
 Like so:
