@@ -57,6 +57,8 @@ In order for these changes to take place, copy and paste this command inside ter
 
 `source ~/.bash_profile`
 
+_Note:_ If you have zsh installed on your machine, you have to run `exec bash` then run `source ~/.bash_profile` .
+
 Like so:
 
 ![](https://s3.amazonaws.com/learn-verified/XcodeBash.png)
