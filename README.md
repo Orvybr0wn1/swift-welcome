@@ -23,9 +23,9 @@ The programming languages we can utilize within Xcode are Swift & Objective-C. W
 
 Xcode is considered an Integrated Development Environment, or IDE. Xcode is provided by Apple, and allows us to create applications for Apple devices.
 
-# Installing Xcode (Version 8.0)
+# Installing Xcode (Version 8.2.1)
 
-Download Xcode [here](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). You're required to download Xcode from the Mac App Store. So, after clicking the "View In Mac App Store" link (see screenshot below) you should be directed to the Mac App Store where you can download the application. You need to be on a Mac in order to download Xcode. If you already have Xcode installed on your machine, make sure you go to the Mac App Store and update to the latest version, which is version 8.0.
+Download Xcode [here](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). You're required to download Xcode from the Mac App Store. So, after clicking the "View In Mac App Store" link (see screenshot below) you should be directed to the Mac App Store where you can download the application. You need to be on a Mac in order to download Xcode. If you already have Xcode installed on your machine, make sure you go to the Mac App Store and update to the latest version, which is version 8.2.1.
 
 ![Xcode Link](https://s3.amazonaws.com/learn-verified/XcodeWeb.png)
 
