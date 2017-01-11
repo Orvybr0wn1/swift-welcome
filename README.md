@@ -46,7 +46,7 @@ Here is what my version of Terminal looks like when it's open.
 
 In order to set up your terminal to look and act like mine (which is important as it will make your life much easier during this course), you'll need to run a couple of commands in your teriminal. Copy and paste the following commands into your terminal. (WARNING: This will override any custom bash profile you currently have!):
 
-- /usr/bin/`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - `curl https://raw.githubusercontent.com/flatiron-school/dotfiles/master/.bash_profile -o ~/.bash_profile`
 
 Like so:
@@ -99,7 +99,18 @@ Follow any of the prompted instructions. It might ask you to type in your Github
 
 Keep it up! So far, so good.
 
-![](https://media.giphy.com/media/c5PHIq9sXsV6o/giphy.gif)
+![](https://media.giphy.com/media/c5PHIq9sXsV6o/giphy.gif)  
+
+Lastly, we need to set your user name and email address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating:
+
+Copy and paste the following commands (one at a time) in your Terminal window. Note that you should replace where it states John Doe with your actual GitHub username. As well, where it states johndoe@example.com you should replace that with the e-mail address you used when creating your GitHub account.
+
+`git config --global user.name "John Doe"`  
+`git config --global user.email johndoe@example.com`  
+
+You need to do this only once if you pass the --global option, because then Git will always use that information for anything you do on that system.
+
+
 
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-welcome'>Welcome</a> on Learn.co and start learning to code for free.</p>
