@@ -1,5 +1,7 @@
 # Welcome!
 
+![](https://s3.amazonaws.com/learn-verified/SwiftLearn.png)
+
 We're excited to have you learn Swift and iOS development with us. There's a lot to cover in this course and the first couple of lessons in this track will revolve around getting you set up with the appropriate tools and platforms. Be prepared to spend some time on setup, but we promise it will be worth it because these will be the same tools and workflows that you will be using when you build apps. So what can you expect to learn in this and the following lesson? 
 
 - **Xcode**
