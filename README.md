@@ -110,7 +110,7 @@ Copy and paste the following commands (one at a time) in your Terminal window. N
 `git config --global user.name "John Doe"`  
 `git config --global user.email johndoe@example.com`  
 
-You need to do this only once if you pass the --global option, because then Git will always use that information for anything you do on that system.
+You need to do this only once if you pass the `--global option`, because then Git will always use that information for anything you do on that system.
 
 
 
